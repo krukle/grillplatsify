@@ -1,0 +1,47 @@
+[v-cloak] { display: none; background-color: #282c34; }
+html, body, .jumbotron {
+    background-color: #282c34;
+}
+.jumbotron {
+    position: relative;
+    padding-top:0;
+    height: 100vh;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+.container-lg {
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+}
+.jumbotron .header-img {
+    width: 100%;
+    max-width: 479px;
+    padding: 1rem 0;
+}
+#map {
+    box-sizing: border-box;
+    height: 100%;
+}
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: #282c34;
+    color: #ddd;
+}
+.leaflet-popup-content-wrapper .leaflet-popup-content h5 {
+    color: #F79316;
+}
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    border: 2px solid #404653:
+}
+.leaflet-bar a, .leaflet-bar a:hover {
+    background-color: #282c34;
+    color: #F79316;
+    border-bottom: 1px solid #404653;
+}
+span.red {
+    color: #ff0000;
+}
+span.green {
+    color: #36AF3C;
+}
